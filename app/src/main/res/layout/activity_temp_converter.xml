@@ -74,7 +74,17 @@
             android:textSize="20sp"
             android:textAlignment="textEnd"
             android:width="250px"
-            android:text="00.000" />
+            android:textColor="@android:color/holo_red_dark" />
+
+        <Button
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/resetButton"
+            android:textSize="20sp"
+            android:layout_below="@+id/celciusLbl"
+            android:layout_alignEnd="@+id/fahrenheitLbl" />
     </RelativeLayout>
 
 </ScrollView>
