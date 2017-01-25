@@ -16,7 +16,7 @@
         tools:context="com.moore.project1_tempconverter.TempConverterActivity">
 
         <TextView
-            android:text="Degrees"
+            android:text="@string/degrees_lbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -26,7 +26,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:text="Fahrenheit"
+            android:text="@string/fahrenheit_lbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/degreesLBL"
@@ -38,7 +38,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:text="Celcius"
+            android:text="@string/celcius_lbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/fahrenheitLbl"
@@ -77,7 +77,7 @@
             android:textColor="@android:color/holo_red_dark" />
 
         <Button
-            android:text="Reset"
+            android:text="@string/reset_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/resetButton"
