@@ -80,11 +80,10 @@
             android:text="Reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
             android:id="@+id/resetButton"
             android:textSize="20sp"
-            android:layout_below="@+id/celciusLbl"
-            android:layout_alignEnd="@+id/fahrenheitLbl" />
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/celciusLbl"/>
     </RelativeLayout>
 
 </ScrollView>
